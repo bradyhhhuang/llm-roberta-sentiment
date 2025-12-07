@@ -17,5 +17,13 @@ In this project, I use the [Amazon-Reviews-2023 datasets from McAuley-Lab](https
 
 To use this repository, you will need to apply for a GEMINI API key from [Google AI studio](https://aistudio.google.com/api-keys) and a GROQ API key from [Groq](https://console.groq.com/keys), and place them in the `/.env` file as GEMINI_API_KEY and GROQ_API_KEY. Without valid keys, you will not be able to run helper_llm_gemini.ipynb and helper_llm_groq.ipynb successfully.
 
+To use the environment for this project, run the following commend on terminal
+```{cmd}
+conda env create -f environment.yml
+conda activate data512_project
+```
+
+You may also need to use Google Colab for additional computing resources when fine-tuning the BERT model.
+
 ## License
 This project is licensed under the MIT License.
